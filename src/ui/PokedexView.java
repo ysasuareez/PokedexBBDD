@@ -409,7 +409,6 @@ public class PokedexView {
 			btnCerrarSesion.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					framePokedexView.dispose();
-					parent.setVisible(true);
 				}
 			});
 			

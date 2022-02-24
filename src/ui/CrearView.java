@@ -409,7 +409,7 @@ public class CrearView {
 		btnVolver.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frameCrearView.dispose();
-				parent.setVisible(true);
+				new PokedexView();
 			}
 		});
 		
